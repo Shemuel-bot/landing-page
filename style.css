@@ -40,7 +40,7 @@ a{
 ul{
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 100px;
     
 }
 
@@ -98,6 +98,12 @@ img{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.thor{
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+    
+}
 .sign-up{
     
     display: flex;
@@ -137,12 +143,13 @@ img{
 
 }
 .call-to-action{
+    
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 125px;
     border-radius: 5px;
     color: #E5E7EB;
     background: #3882F6;
@@ -164,12 +171,17 @@ img{
 .action-call{
     
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex: 1;
+    
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 8px;
+    flex-basis: auto;
+    width: 400px;
+   flex-wrap: wrap;
     margin-right: 100px;
       
 }
+
 .footer{
     display: flex;
     background: #1F2937;
