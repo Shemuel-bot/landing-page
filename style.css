@@ -7,15 +7,19 @@ body{
 
 }
 
+.sign-up-header{
+    font-size: 48px;
+}
+
 .header{
     color: aliceblue;
     display: flex;
-    outline: auto;
     width: 150vh;
     justify-content: space-between;
 }
 a{
     text-decoration: none;
+    color: aliceblue;
 }
 .information-head{
     font-size: 36px;
@@ -47,11 +51,19 @@ ul{
     
     align-items: center;
 }
+
 img{
     border-radius: 8px;
     border: #3882F6;
     
 }
+
+.sign-up img{
+    width: 60vh;
+    height: 30vh;
+    border-radius: 2px;
+}
+
 .image-group{
     display: flex;
     margin-bottom: 50px;
@@ -87,9 +99,36 @@ img{
     margin-bottom: 100px;
 }
 .sign-up{
+    
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 150vh;
+    
 }
+.sign-up-text{
+    color: aliceblue;
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    margin-right: auto;
+}
+
+.sign-up-text p{
+    font-size: 22px;
+}
+.sign-up-text button{
+    background: #3882F6;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+}
+
 
 .sign-up-section{
     display: flex;
