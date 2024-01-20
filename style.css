@@ -1,0 +1,20 @@
+body{
+    
+   
+    outline: auto;
+   
+}
+
+.top{
+    outline: auto;
+    background: #1F2937;
+}
+.mid{
+    background: white;
+}
+.second-mid{
+    background: #E5E7EB;
+}
+.footer{
+    background: white;
+}
