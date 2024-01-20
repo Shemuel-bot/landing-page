@@ -1,20 +1,62 @@
 body{
+    /*height: 98vh;*/
     
-   
-    outline: auto;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.information-header{
+
+}
+.image-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
 }
 
 .top{
-    outline: auto;
+    display: flex;
+    
     background: #1F2937;
 }
+img{
+    border-radius: 8px;
+    border: #3882F6;
+    
+}
+.image-group{
+    display: flex;
+    gap: 20px;
+}
+
 .mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: white;
 }
 .second-mid{
+    display: flex;
     background: #E5E7EB;
 }
-.footer{
+.sign-up-section{
+    display: flex;
     background: white;
+    justify-content: center;
+
+}
+.call-to-action{
+    border-radius: 10px;
+    background: #3882F6;
+}
+
+.footer{
+    display: flex;
+    background: #1F2937;
+    
 }
